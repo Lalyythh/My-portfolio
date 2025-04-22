@@ -15,39 +15,66 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'E-commerce REST APIs',
-    category: 'Backend',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    description: 'Successfully developed and implemented multiple REST APIs for an e-commerce platform, enhancing functionality and user experience.',
-    technologies: ['Java', 'Spring Boot', 'MySQL', 'REST'],
-    github: 'https://github.com/',
+    title: 'LocalFynd - Business Directory',
+    category: 'Full Stack',
+    image: 'https://t3.ftcdn.net/jpg/12/07/35/02/240_F_1207350294_65ouy5Au2HrTX9mHBJdXmH8UlKsyCMDP.jpg',
+    description: 'Developed a full-stack local business directory platform for users to discover and list independent businesses. Features include user authentication, business reviews, search, and filtering.',
+    technologies: ['Spring Boot', 'Java', 'MySQL', 'React', 'HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/Lalyythh/LocalBusinessRepo.git',
   },
   {
     id: 2,
-    title: 'Mobile Game Application',
-    category: 'Mobile',
-    image: 'https://images.pexels.com/photos/2755160/pexels-photo-2755160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    description: 'Created engaging mobile game applications that contributed to a better understanding of user interaction within software development.',
-    technologies: ['Android', 'Java', 'Mobile Development'],
-    github: 'https://github.com/',
-    demo: 'https://play.google.com/'
+    title: 'Task Manager - MERN Stack',
+    category: 'Full Stack',
+    image: 'https://t3.ftcdn.net/jpg/11/88/27/12/240_F_1188271278_m1z9ayEykJNljxZBfdGEMzI3kM3cEscT.jpg',
+    description: 'A fully-featured task management web application built with the MERN stack. Users can add, update, delete, and search for tasks with a clean UI and responsive design.',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+    github: 'https://github.com/Lalyythh/TaskManager.git',
+
   },
   {
     id: 3,
-    title: 'Dynamic User Interface',
-    category: 'Frontend',
-    image: 'https://images.pexels.com/photos/196646/pexels-photo-196646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    description: 'Acquired hands-on experience in developing dynamic user interfaces with React for modern web applications.',
-    technologies: ['React', 'JavaScript', 'CSS', 'HTML'],
-    github: 'https://github.com/',
+    title: 'JobFynder - Job Search Platform',
+    category: 'Full Stack',
+    image: 'https://t3.ftcdn.net/jpg/06/26/48/72/240_F_626487258_35Id0uBFaqgWSAJ9h1dAtR1BLOU3maLz.jpg',
+    description: 'Created a job search platform using the MERN stack where users can post and browse job listings, apply for jobs, and manage applications. Includes filters by location, category, and role.',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+    github: 'https://github.com/Lalyythh/JobFynder.git',
   },
   {
     id: 4,
-    title: 'Scalable Backend System',
-    category: 'Backend',
-    image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-    description: 'Built scalable backend systems using the Spring Framework, focusing on performance and maintainability.',
-    technologies: ['Java', 'Spring Framework', 'REST', 'MySQL'],
+    title: 'QuickNotes - Personal Notes App',
+    category: 'Full Stack',
+    image: 'https://t3.ftcdn.net/jpg/11/26/89/72/240_F_1126897285_Z5kfXsVtRe024XAJ1gMOswrQNozRel5V.jpg',
+    description: 'QuickNotes is a minimal and responsive personal note-taking app built using the MERN stack. Users can create, update, delete, and search their notes efficiently.',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+    github: 'https://github.com/Lalyythh/Quick_Notes.git',
+  },
+  {
+    id: 5,
+    title: 'MERN Chatbot - Custom Q/A',
+    category: 'Full Stack',
+    image: 'https://t3.ftcdn.net/jpg/10/56/41/48/240_F_1056414850_Gnm3zp3rBBxrsTNlJMrQMITastkRfQ3l.jpg',
+    description: 'Built a smart chatbot using the MERN stack that handles custom Q&A from a predefined dataset. Works offline without any external APIs and supports conversational flow.',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+    github: 'https://github.com/Lalyythh/Mern_ChatBot.git',
+  },
+  {
+    id: 6,
+    title: 'ColdFit - Clothing Store',
+    category: 'Full Stack',
+    image: 'https://cdn.pixabay.com/photo/2019/04/26/07/14/store-4156934_1280.png',
+    description: 'ColdFit is an online clothing store built with the MERN stack. Users can browse products, add them to their cart, and proceed with fake checkout. The admin panel allows product management.',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'CSS'],
+    github: 'https://github.com/',
+  },
+  {
+    id: 7,
+    title: 'Mobile Game Application',
+    category: 'Mobile',
+    image: 'https://t3.ftcdn.net/jpg/09/14/58/54/240_F_914585423_I2YTg5TOO27Lmp4ssRKOJ8BsmSZocX9E.jpg',
+    description: 'Created engaging mobile game applications that contributed to a better understanding of user interaction within software development.',
+    technologies: ['Android', 'Java', 'Mobile Development'],
     github: 'https://github.com/',
   }
 ];
@@ -59,7 +86,7 @@ const Projects: React.FC = () => {
     ? projects 
     : projects.filter(project => project.category.toLowerCase() === filter.toLowerCase());
   
-  const filters = ['all', 'Frontend', 'Backend', 'Mobile'];
+  const filters = ['all','full stack', 'Mobile'];
   
   return (
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800">
