@@ -190,7 +190,7 @@ const Contact: React.FC = () => {
               </p>
               <div className="flex space-x-4 mt-6">
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/Lalyythh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-10 w-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"

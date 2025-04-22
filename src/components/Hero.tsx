@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             
             <div className="mt-8 flex flex-wrap gap-4">
               <a 
-                href="/resume.pdf" 
+                href="/LALITH KISHORE_Resume.pdf" 
                 download
                 className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-200"
               >
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             </div>
             
             <div className="mt-10 flex items-center space-x-4">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-200">
+              <a href="https://github.com/Lalyythh" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-200">
                 <Github size={24} />
               </a>
               <a href="https://www.linkedin.com/in/lalith-kishore-h-64849924a/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-200">
