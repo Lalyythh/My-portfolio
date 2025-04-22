@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <a href="#home" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-              Welcome to my Protfolio <span className="text-gray-800 dark:text-white"></span>
+              Welcome to my Portfolio <span className="text-gray-800 dark:text-white"></span>
             </a>
           </div>
 

@@ -49,7 +49,7 @@ const About: React.FC = () => {
               </p>
             </div>
             <div className="bg-blue-50 dark:bg-gray-800 p-6 rounded-lg shadow-md transform transition-transform hover:scale-105">
-              <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">Mobile Development</h4>
+              <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">Mobile App Development</h4>
               <p className="text-gray-600 dark:text-gray-400">
                 Proficient in developing Android applications with a focus on user experience.
               </p>
