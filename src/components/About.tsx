@@ -36,7 +36,7 @@ const About: React.FC = () => {
               </div>
               <div className="flex items-center">
                 <Book className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-3" />
-                <span className="text-gray-700 dark:text-gray-300">B.E. - 8.01 CGPA</span>
+                <span className="text-gray-700 dark:text-gray-300">B.E. CSE - 8.01 CGPA</span>
               </div>
             </div>
           </div>
