@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <img
-                src="public/Firefly 20250420104202.png"
+                src="/Firefly 20250420104202.png"
                 alt="Lalith Kishore H"
                 className="w-full h-full object-cover"
               />
