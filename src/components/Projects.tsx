@@ -30,7 +30,6 @@ const projects: Project[] = [
     description: 'A fully-featured task management web application built with the MERN stack. Users can add, update, delete, and search for tasks with a clean UI and responsive design.',
     technologies: ['MongoDB', 'Express.js', 'React', 'Node.js'],
     github: 'https://github.com/Lalyythh/TaskManager.git',
-
   },
   {
     id: 3,
