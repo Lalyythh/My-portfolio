@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="/LALITH KISHORE_Resume.pdf"
+                href="/LALITH KISHORE_Resume-v2.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition duration-300"
               >
