@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl hover:scale-105 transition-transform duration-300">
               <img
-                src="/Firefly 20250420104202.png"
+                src="/My-Image.png"
                 alt="Lalith Kishore H"
                 className="w-full h-full object-cover"
               />
